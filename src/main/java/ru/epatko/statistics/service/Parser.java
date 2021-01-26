@@ -84,7 +84,7 @@ public class Parser implements Callable<Void> {
                 log.error(e.getMessage(), e);
             }
         } else {
-            log.debug("There are no queue for instrument: [ {} ].", quotation.getInstrument());
+            log.debug("There is no queue for instrument: [ {} ].", quotation.getInstrument());
         }
         log.debug("Added Quotation");
     }
